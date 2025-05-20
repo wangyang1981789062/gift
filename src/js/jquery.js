@@ -1,22 +1,10 @@
-/*!
- * jQuery JavaScript Library v1.11.0
- * http://jquery.com/
- *
- * Includes Sizzle.js
- * http://sizzlejs.com/
- *
- * Copyright 2005, 2014 jQuery Foundation, Inc. and other contributors
- * Released under the MIT license
- * http://jquery.org/license
- *
- * Date: 2014-01-23T21:02Z
- */
 (function (e, t) {
     typeof module == "object" && typeof module.exports == "object" ? module.exports = e.document ? t(e, !0) : function (e) {
         if (!e.document) throw new Error("jQuery requires a window with a document");
         return t(e)
     } : t(e)
-})(typeof window != "undefined" ? window : this, function (e, t) {
+})
+(typeof window != "undefined" ? window : this, function (e, t) {
     function y(e) {
         var t = e.length, n = p.type(e);
         return n === "function" || p.isWindow(e) ? !1 : e.nodeType === 1 && t ? !0 : n === "array" || t === 0 || typeof t == "number" && t > 0 && t - 1 in e

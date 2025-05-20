@@ -23,9 +23,4 @@ $(function () {
             top:"70%"
         },2000);
     },9000);
-
-    // $(window).click(function(){
-    // 	$('audio')[0].play();
-    // });
-    // window.audio=$('audio')[0].play();
 })
